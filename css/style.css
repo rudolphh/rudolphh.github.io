@@ -1,6 +1,6 @@
 
 
-body { padding-top: 30px; background-image: url("https://goo.gl/V5kMfs"); }
+body { padding-top: 110px; background-image: url("https://goo.gl/V5kMfs"); }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -61,7 +61,6 @@ h4 { font-weight: bold; }
   border-radius: 50%;
   border: 1px solid lightgray;
   box-shadow: 5px 5px 10px gray;
-  margin: 40px 20px;
 }
 
 
