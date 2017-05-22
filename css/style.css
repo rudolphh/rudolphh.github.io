@@ -57,7 +57,7 @@ img#github-avatar { border-radius: 50%; width: 20px; vertical-align: bottom; mar
 h4 { font-weight: bold; }
 
 #github-avatar-bio {
-  width: 120px;
+  width: 400px;
   border-radius: 50%;
   border: 1px solid lightgray;
   box-shadow: 5px 5px 10px gray;
