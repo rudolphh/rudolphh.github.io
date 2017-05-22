@@ -16,6 +16,8 @@ p {
   padding-top: 2%;
 }
 
+#help-position { position: relative; top: 0; left: 0; }
+
 #dmond {
   width: 35vw;
   max-width: 200px;
