@@ -9,6 +9,34 @@ p {
     color: gray;
 }
 
+#tron {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 2%;
+}
+
+#dmond {
+  width: 35vw;
+  max-width: 200px;
+  position: absolute;
+  top: -90%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 3;
+}
+
+#github-avatar-bio {
+  width: 500px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 10px gray;
+  z-index: 1;
+}
+
+
 .red-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px red, 0 0 5px darkred; }
 .green-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px green, 0 0 5px darkgreen; }
 .blue-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px blue, 0 0 5px darkblue; }
@@ -56,16 +84,11 @@ img#github-avatar { border-radius: 50%; width: 20px; vertical-align: bottom; mar
 
 h4 { font-weight: bold; }
 
-#github-avatar-bio {
-  width: 400px;
-  border-radius: 50%;
-  border: 1px solid lightgray;
-  box-shadow: 5px 5px 10px gray;
-}
+
 
 
 .navbar-brand {
-  margin: 0 10px;
+  margin: 0 0 0 10px;
   letter-spacing: 1px;
   font-size: 14px;
 }
