@@ -1,44 +1,28 @@
+
+
+body { padding-top: 30px; background-image: url("https://goo.gl/V5kMfs"); }
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     line-height: 1.45;
-    color: gray; 
-}
-@media screen and (min-width: 320px){
-
-p {
-    font-size: calc(15px + 8 * ((100vw - 320px) / 1180));
-}
+    color: gray;
 }
 
-
- 
 .red-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px red, 0 0 5px darkred; }
 .green-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px green, 0 0 5px darkgreen; }
 .blue-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px blue, 0 0 5px darkblue; }
 
-#welcome-title { color: white; display: inline-block; width: 100%; text-align: center; margin-bottom: -20px; margin-top: 35px; 
-
-
-
-  
-}
-
-.hit-the-floor {
-color: #fff;
-font-size: 3em;
-font-weight: bold;
-font-family: Helvetica;
-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-}
-
-.hit-the-floor {
+#welcome-title {
+  color: white;
+  display: inline-block;
+  width: 100%;
   text-align: center;
+  margin-bottom: -20px;
+  margin-top: 35px;
 }
 
-body {
-  background-color: #f1f1f1;
-}
+
 
 
 #projects { text-align: center; margin-left: auto; margin-right: auto;  margin-top: 50px; }
@@ -51,19 +35,18 @@ a.project-link img { width: 40vw; margin-bottom: 50px; }
 @media screen and (max-width: 768px){
   .image { margin-bottom: 10px;  }
   a.project-link img { width: 80vw;  }
-  
+
 }
 
 section { margin: 30px 50px 10px 50px; }
- 
-body { padding-top: 30px; background-image: url("https://goo.gl/V5kMfs"); }
-.section { position: relative; } 
+
+.section { position: relative; }
 .section:target { padding-top: 80px; }
 
 
 
 .navbar-nav {
-    
+
     text-align: center;
 }
 .navbar-nav>li>a { letter-spacing: 1px; }
@@ -72,33 +55,30 @@ body { padding-top: 30px; background-image: url("https://goo.gl/V5kMfs"); }
 img#github-avatar { border-radius: 50%; width: 20px; vertical-align: bottom; margin-left: 5px; }
 
 h4 { font-weight: bold; }
+
 #github-avatar-bio {
-  float: right;
   width: 120px;
-  border-radius: 10%; 
-  position: relative;
-  top: -25px;
-  left: 0px; 
+  border-radius: 50%;
   border: 1px solid lightgray;
   box-shadow: 5px 5px 10px gray;
-  margin: 10px 20px; 
+  margin: 40px 20px;
 }
 
 
-.navbar-brand { 
-  margin: 0 10px; 
-  letter-spacing: 1px; 
-  font-size: 14px; 
+.navbar-brand {
+  margin: 0 10px;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 
 
 
-img#about-img { 
+img#about-img {
   border-radius: 5px;
   width: 50px;
   border: 1px solid lightgray;
-  margin: 0 10px; 
+  margin: 0 10px;
 }
 
 h4.hit-the-floor  { font-size: 25px; text-align: left; margin-bottom: 30px; }
@@ -112,9 +92,9 @@ blockquote {
    -moz-box-shadow: 2px 2px 15px #ccc;
   -webkit-box-shadow: 2px 2px 15px #ccc;
   box-shadow: 2px 2px 15px #ccc;
-  
+
   font-family: Georgia, serif;
-  font-style: italic; 
+  font-style: italic;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -133,7 +113,7 @@ blockquote p {
 #navbar { margin-top: 15px; }
 .nav>li { display: inline-block; }
 
-#footer { 
+#footer {
   height: 200px;
   border-top: 1px solid lightgray;
   margin-top: 100px;
