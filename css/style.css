@@ -4,45 +4,57 @@
   color: #e7624d;
 }
 
-h3.h-font { font-size: 7vw; }
-h4.h-font { font-size: 9.7vw; }
 
-body { padding-top: 110px; background-image: url("https://goo.gl/V5kMfs"); }
+h6.h-font { font-size: 18px; }
+
+body {
+  padding-top: 15px;
+  background-color: #e7624d;
+}
 
 section { text-align: center; }
-h4 {
-  position: relative;
-//margin-top: 20px;
-}
 
-h4.one {
-  margin-top: 0;
+main {
+  padding-top: 95px;
+  padding-bottom: 100px;
+  background-image: url("https://goo.gl/V5kMfs");
 }
-
-h4.one:before {
-  content: "";
-  display: block;
-  border-top: solid 1px black;
-  width: 100%;
-  height: 1px;
-  position: absolute;
-  top: 50%;
-  z-index: 1;
-}
-
-h4.one span {
-  background: #fff;
-  padding: 0 20px;
-  position: relative;
-  z-index: 5;
-}
-
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     line-height: 1.45;
     color: gray;
+}
+
+.about-col {
+  margin-bottom: 50px;
+}
+
+.hsl5 {
+  border-bottom: 3px solid orange;
+}
+
+.section-title {
+  position: relative;
+  bottom: 20px;
+  margin-bottom: -10px;
+}
+.section-title h4 {
+  font-size: 24px !important;
+}
+
+#about-section p {
+  min-height: 250px;
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+.hl2 {
+width: 45px;
+border-bottom: 3px solid rgba(232, 99, 78, 1);
+height: 0 !important;
+min-height: 0 !important;
 }
 
 #tron {
@@ -90,13 +102,8 @@ p {
   margin-bottom: -15vw;
 }
 
-#whoiam {
-  position: relative;
-  bottom: 45vw;
-}
-
 @media (min-width: 546px) {
-  #whoiam { bottom: 230px; }
+
   #live-love-code {
     bottom: 250px;
     margin-bottom: -100px;
@@ -107,30 +114,7 @@ p {
 .green-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px green, 0 0 5px darkgreen; }
 .blue-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px blue, 0 0 5px darkblue; }
 
-#welcome-title {
-  color: white;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: -20px;
-  margin-top: 35px;
-}
 
-
-
-
-#projects { text-align: center; margin-left: auto; margin-right: auto;  margin-top: 50px; }
-.project-tile {  margin: 10px 15px 10px 0px; display: inline; }
-a.project-link img { width: 40vw; margin-bottom: 50px; }
-#welcome-title { text-align: right;  }
-@media screen and (max-width: 546px){
-  #welcome-title { text-align: center; margin-bottom: 10px;  }
-}
-@media screen and (max-width: 768px){
-  .image { margin-bottom: 10px;  }
-  a.project-link img { width: 80vw;  }
-
-}
 
 
 
@@ -169,34 +153,7 @@ img#about-img {
   margin: 0 10px;
 }
 
-h4.hit-the-floor  { font-size: 25px; text-align: left; margin-bottom: 30px; }
 
-blockquote {
-  background: lightyellow;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-   -moz-box-shadow: 2px 2px 15px #ccc;
-  -webkit-box-shadow: 2px 2px 15px #ccc;
-  box-shadow: 2px 2px 15px #ccc;
-
-  font-family: Georgia, serif;
-  font-style: italic;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-}
 
 #navbar { margin-top: 15px; }
 .nav>li { display: inline-block; }
@@ -204,9 +161,51 @@ blockquote p {
 #footer {
   height: 200px;
   border-top: 1px solid lightgray;
-  margin-top: 100px;
   background-color: white;
   box-shadow: 10px -10px 25px grey;
 }
 
 .portfolio-title { margin-bottom: 50px !important; }
+
+
+#portfolio-section img {
+  position: relative;
+  z-index: 99;
+}
+
+.letter {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 26px auto 20px;
+  padding: 20px;
+  position: relative;
+  z-index: 5;
+}
+.letter:before, .letter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.letter:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.letter:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+
+.title-desc h5 { font-size: 16px;}
+
+.ghub {
+  width: 32px;
+  margin-top: 10px;
+}

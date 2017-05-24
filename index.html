@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio First Draft (FCC)</title>
+  <title>Rudolph Arthur</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,62 +10,67 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
   <link rel="stylesheet" href="css/style.css?v=2">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 
 
 </head>
 
 <body>
   <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Collapse Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-      <a class="navbar-brand page-scroll" id="email-copy"
-         title="copy to clipboard" onClick="copyToClipboard('email-copy');"
-         href="#">
-         <span class=" main-header">rudolpharthur@gmail.com
-           <i style="margin-left: 10px; " class="fa fa-clipboard"
-              aria-hidden="true">
-           </i>
-         </span>
-      </a>
+  <div class="container-fluid" style='border-top: 1px solid lightgray; '>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Collapse Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+          <a class="navbar-brand page-scroll" id="email-copy"
+             title="copy to clipboard" onClick="copyToClipboard('email-copy');"
+             href="#">
+             <span class=" main-header">Email
+               <i style="margin-left: 10px; " class="fa fa-clipboard"
+                  aria-hidden="true">
+               </i>
+             </span>
+          </a>
 
-    </div>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="#page-top"></a>
-        </li>
-        <li>
-          <a  href="#about-section">About Me</a>
-        </li>
-        <li>
-          <a href="#projects">Portfolio</a>
-        </li>
-        <li> <a id="profile-link" target="_blank" href="https://github.com/rudolphh">Github
-          <img id="github-avatar" src="https://goo.gl/mJUmmt" /></a>
-        </li>
-        <li>
-          <a class="scrollable" href="#footer">Contact</a>
-        </li>
-      </ul>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a  href="#about-section">About</a>
+            </li>
+            <li>
+              <a href="#portfolio-section">Portfolio</a>
+            </li>
+            <li> <a id="profile-link" target="_blank" href="https://github.com/rudolphh">Github
+              <img id="github-avatar" src="https://goo.gl/mJUmmt" /></a>
+            </li>
+            <li>
+              <a class="scrollable" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
     <!-- /.navbar-collapse -->
+      </div>
+    </div>
   </div>
   <!-- /.container-fluid -->
 </nav>
 
 
-<main id="main-section" class="container-fluid">
+<main>
 
 
-<section id="welcome-section" class="section">
+<section id="welcome-section" class="section container-fluid">
   <div id='tron' class=''>
     <div id='help-position'>
       <img id='dmond' class='img-responsive center-block'
@@ -75,70 +80,168 @@
 
       <img id='live-love-code' class='img-responsive center-block'
            src='./img/live-love-code.svg' />
-      <!-- <div class="row" id='whoiam'>
-        <h3 class='h-font'><span>HELLO I'M RUDY</span></h3>
-        <h4 class='h-font'><span>LOVE CODE</span></h4>
-        <h4 class='h-font' class='letter-i'>
-          <span>i</span>
-        </h4>
-      </div> -->
+
     </div>
     </a>
   </div>
 </section>
 
-<section id='about-section' class='section'>
-  <h4 class='one'><span>About</span></h4>
-  <div>
-  <p>Been learning web development and design for five years now.
-    In college, prior to my experience in web development, I coded
-    in C++ and Java.
-  </p>
-  <p>Back then, I wanted to do systems programming but it wasn't taught
-    locally, and learning resources were much tougher to come across.
-    At some point, coding became a small source of resentment. It took up
-    a lot of time that I wasn't pouring into advancing at where I was working.
-  </p>
+<section id='about-section' class='section container-fluid'>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="hsl5 col-md-5 col-xs-4"></div>
+        <div class="section-title col-md-2 col-xs-4">
+          <h4 class='h-font'><span>ABOUT</span></h4>
+        </div>
+        <div class="hsl5 col-md-5 col-xs-4"></div>
+      </div>
 
-  <blockquote>
-    <p>I was stuck. Going from one grunt job to the next,
-    coding with much of my spare time. It felt like I was playing
-    video games to family and friends. "
-    </p>
-  </blockquote>
+      <div class='row'>
+        <div class="col-md-4 about-col">
+          <h6 class="h-font"><span>MYSELF</span></h6>
+          <div class="hl2 center-block"></div>
+          <p>Been learning web development and design for five years now.
+            In college, prior to my experience in web development, I coded
+            in C++ and Java.
+          </p>
+          <div class="hl2 center-block"></div>
+        </div>
 
-  <p>I am now building a portfolio, and keeping better track of my
-    progress, with the goal of pushing code consistently to contribute
-     to other projects.
-  </p>
+        <div class="col-md-4 about-col">
+          <h6 class="h-font"><span>WHAT I'VE DONE</span></h6>
+          <div class="hl2 center-block"></div>
+          <p>Back then, I wanted to do systems programming but it wasn't taught
+            locally, and learning resources were much tougher to come across.
+            At some point, coding became a small source of resentment. It took up
+            a lot of time that I wasn't pouring into advancing at where I was working.
+          </p>
+          <div class="hl2 center-block"></div>
+        </div>
 
-  <p>Below is a growing list of portfolio links. Enjoy, and
-    thank you for stopping by.
-  </p>
+        <div class="col-md-4 about-col">
+          <h6 class="h-font"><span>WHAT I DO</span></h6>
+          <div class="hl2 center-block"></div>
+          <p>I am now building a portfolio, and keeping better track of my
+            progress, with the goal of pushing code consistently to contribute
+             to other projects.
+          </p>
+          <div class="hl2 center-block"></div>
+        </div>
+
+      </div>
+    </div>
   </div>
 </section>
 
+<section id="portfolio-section" class="section container-fluid" >
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="hsl5 col-md-4 col-xs-3"></div>
+        <div class="section-title col-md-4 col-xs-6">
+          <h4 class='h-font'><span>PORTFOLIO</span></h4>
+        </div>
+        <div class="hsl5 col-md-4 col-xs-3"></div>
+      </div>
 
+      <div class='row'>
+        <div class="col-md-8 col-md-offset-2">
+          <h6 class="h-font"><span>FRONT END PROJECTS</span></h6>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-md-8">
+          <div class="letter">
+            <a target="_blank" href="https://rudolphh.github.io/design-love">
+              <img class="img-responsive" src="./img/design-love.png" alt="Random design quote generator"  />
+            </a>
+          </div>
+          <div class="title-desc row">
 
-<section id="projects" class="section" >
+            <div class="col-md-10">
+              <h4 class="h-font"><span>Random Quote Generator</span></h4>
+              <h5 class="h-font">
+                <span>Using SCSS, JQuery, Twitter, and QuotesOnDesign API</span>
+              </h5>
+            </div>
 
-  <h4 class="portfolio-title hit-the-floor"
-      style="text-align: center;">Portfolio  Projects</h4>
+            <div class="col-md-2">
+              <a href="https://github.com/rudolphh/design-love" target="_blank">
+                <img class='ghub center-block' src="./img/orange-ghub.png" alt="GitHub Logo" />
+              </a>
+            </div>
 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="letter">
+            <a class="project-link" target="_blank" href="https://rudolphh.github.io/react-calc">
+              <img class="img-responsive"  src="./img/react-calc.png" alt="Calculator built using React"  />
+            </a>
+          </div>
+          <div class="title-desc row">
 
-  <div class="project-tile">
-    <a class="project-link" target="_blank" href="http://codepen.io/rudolphho/full/WRyBbQ"><img id="image" class="image"  src="https://i.imgsafe.org/c2554eb284.png" alt="Random Quotes"  /> </a>
+            <div class="col-md-10">
+              <h4 class="h-font"><span>React Calculator</span></h4>
+              <h5 class="h-font">React Components, Babel (ES6, JSX) and Regex</h5>
+            </div>
+
+            <div class="col-md-2">
+              <a href="https://github.com/rudolphh/react-calc" target="_blank">
+                <img class='ghub center-block' src="./img/orange-ghub.png" alt="GitHub Logo" />
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="letter">
+            <a class="project-link" target="_blank" href="https://rudolphh.github.io/pomodoro-react/">
+              <img class="img-responsive" src="./img/pomodoro.png" alt="Pomodoro Clock in React" />
+            </a>
+          </div>
+          <div class="title-desc row">
+            <div class="col-md-10">
+              <h4 class="h-font"><span>Super Drum Bros</span></h4>
+              <h5 class="h-font">Another React project with water-rising effect</h5>
+            </div>
+
+            <div class="col-md-2">
+              <a href="https://github.com/rudolphh/pomodoro-react" target="_blank">
+                <img class='ghub center-block' src="./img/orange-ghub.png" alt="GitHub Logo" />
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="letter">
+            <a class="project-link" target="_blank" href="https://rudolphh.github.io/super-drum-bros">
+              <img class="img-responsive" src="./img/super-drum-bros.png" alt="Mario Bros. inspired drum machine" />
+            </a>
+          </div>
+          <div class="title-desc row">
+            <div class="col-md-10">
+              <h4 class="h-font"><span>Super Drum Bros</span></h4>
+              <h5 class="h-font">Mario Bros. inspired drum machine using vanilla JS and HTML5 Audio</h5>
+            </div>
+
+            <div class="col-md-2">
+              <a href="https://github.com/rudolphh/super-drum-bros" target="_blank">
+                <img class='ghub center-block' src="./img/orange-ghub.png" alt="GitHub Logo" />
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
-
-  <div class="project-tile">
-    <a class="project-link" target="_blank" href="http://codepen.io/rudolphho/pen/ZLrGEm"><img id="image" class="image"  src="https://i.imgsafe.org/116967ce60.png" alt="Wozniak Tribute"  /> </a>
-  </div>
-
-   <div class="project-tile">
-    <a class="project-link" target="_blank" href="http://codepen.io/rudolphho/pen/RKQrWm/"><img class="image"  src="https://i.imgsafe.org/11768ec7c1.png" alt="Product Landing Page"  /> </a>
-  </div>
-
 
 </section>
 

@@ -20,7 +20,7 @@ function copyToClipboard(elementId) {
 
 $(document).ready(function () {
 
-  /* thanks to csstricks.com: 
+  /* thanks to csstricks.com:
   https://goo.gl/9lRSlJ
   */
   $(function () {
@@ -30,11 +30,24 @@ $(document).ready(function () {
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
           $('html, body').animate({
-            scrollTop: target.offset().top - 140
+            scrollTop: target.offset().top - 110
           }, 1000);
           return false;
         }
       }
     });
   });
+
+  $(document).click(function(e) {
+      if (!$(e.target).is('a')) {
+          $('.collapse').collapse('hide');
+      }
+  });
+
+  $(function($){
+      $('.navbar-default .navbar-nav > li > a').click(function() {
+          $('.navbar-default .navbar-collapse').collapse('hide')
+      });
+  });
+
 });
