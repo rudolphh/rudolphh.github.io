@@ -173,7 +173,18 @@ img#about-img {
   z-index: 99;
 }
 
-.letter {
+.project { margin-bottom: 50px; }
+.project-section { margin-top: 30px; }
+
+@media (min-width: 992px) {
+
+  .project {
+    margin-bottom: 0px;
+  }
+}
+
+
+.letter, .frame {
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   margin: 26px auto 20px;
