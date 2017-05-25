@@ -173,6 +173,12 @@ img#about-img {
   background-color: #e7624d;
 }
 
+.form-control {
+  font-family: 'Josefin Slab', serif;
+  font-size: 17px;
+  padding-top: 10px;
+}
+
 #contact-section p { color: white !important;}
 
 .portfolio-title { margin-bottom: 50px !important; }
