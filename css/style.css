@@ -6,8 +6,7 @@
   color: #e7624d;
 }
 
-
-h6.h-font { font-size: 18px; }
+h6.h-font, h6.c-font { font-size: 18px; }
 
 body {
   padding-top: 15px;
@@ -47,17 +46,17 @@ p {
   font-size: 24px !important;
 }
 
-#about-section p {
+#about-section p, #contact-section p {
   min-height: 250px;
   padding: 20px 0 20px 0;
   margin: 0;
 }
 
 .hl2 {
-width: 45px;
-border-bottom: 3px solid rgba(232, 99, 78, 1);
-height: 0 !important;
-min-height: 0 !important;
+  width: 45px;
+  border-bottom: 3px solid rgba(232, 99, 78, 1);
+  height: 0 !important;
+  min-height: 0 !important;
 }
 
 #tron {
@@ -118,9 +117,6 @@ min-height: 0 !important;
 .blue-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px blue, 0 0 5px darkblue; }
 
 
-
-
-
 .section { position: relative; }
 .section:target { padding-top: 80px; }
 
@@ -131,23 +127,18 @@ min-height: 0 !important;
     text-align: center;
 }
 .navbar-nav>li>a { letter-spacing: 1px; }
+
 #navbar { box-shadow: 10px 10px 25px grey; }
 
 img#github-avatar { border-radius: 50%; width: 20px; vertical-align: bottom; margin-left: 5px; }
 
 h4 { font-weight: bold; }
 
-
-
-
 .navbar-brand {
   margin: 0 0 0 10px;
   letter-spacing: 1px;
   font-size: 14px;
 }
-
-
-
 
 img#about-img {
   border-radius: 5px;
@@ -156,17 +147,33 @@ img#about-img {
   margin: 0 10px;
 }
 
-
-
 #navbar { margin-top: 15px; }
 .nav>li { display: inline-block; }
 
-#footer {
-  height: 200px;
-  border-top: 1px solid lightgray;
-  background-color: white;
-  box-shadow: 10px -10px 25px grey;
+.hl3 {
+  width: 45px;
+  border-bottom: 3px solid white;
+  height: 0 !important;
+  min-height: 0 !important;
 }
+
+.hsl7 {
+  border-bottom: 3px solid #E5E2D3;
+}
+
+.c-font {
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
+
+#footer {
+  min-height: 200px;
+  border-top: 1px solid lightgray;
+  padding: 40px 0 40px 0;
+  background-color: #e7624d;
+}
+
+#contact-section p { color: white !important;}
 
 .portfolio-title { margin-bottom: 50px !important; }
 
