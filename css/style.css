@@ -46,7 +46,7 @@ p {
   font-size: 24px !important;
 }
 
-#about-section p, #contact-section p {
+#about-section p {
   min-height: 250px;
   padding: 20px 0 20px 0;
   margin: 0;
@@ -177,6 +177,24 @@ img#about-img {
   font-family: 'Josefin Slab', serif;
   font-size: 17px;
   padding-top: 10px;
+}
+
+.contact-col {
+  padding: 20px 0 20px 0;
+}
+
+.contact-col p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.contact-col a {
+  color: black;
+
+}
+
+.follow-img {
+  width: 32px;
 }
 
 #contact-section p { color: white !important;}
