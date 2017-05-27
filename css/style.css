@@ -193,6 +193,12 @@ img#about-img {
 
 }
 
+.message {
+  height: 143px;
+  display: flex;
+  margin-top: 19px;
+}
+
 .follow-img {
   width: 32px;
 }
