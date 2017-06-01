@@ -215,6 +215,10 @@ img#about-img {
 .project { margin-bottom: 50px; }
 .project-section { margin-top: 0px; margin-bottom: 25px; }
 
+.api-img {
+  border: 1px solid lightgray;
+}
+
 @media (min-width: 992px) {
 
   .project {
