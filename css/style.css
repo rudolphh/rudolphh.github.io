@@ -17,7 +17,6 @@ section { text-align: center; }
 
 main {
   padding-top: 95px;
-  padding-bottom: 100px;
   background-image: url("https://goo.gl/V5kMfs");
 }
 
@@ -189,8 +188,8 @@ img#about-img {
 }
 
 .contact-col a {
-  color: darkred;
-
+  color: white;
+  text-decoration: underline;
 }
 
 .message {
@@ -225,6 +224,8 @@ img#about-img {
   .project-section {
     margin-top: 20px;
   }
+
+  main { padding-bottom: 100px; }
 }
 
 
