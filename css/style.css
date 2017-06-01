@@ -214,7 +214,7 @@ img#about-img {
 }
 
 .project { margin-bottom: 50px; }
-.project-section { margin-top: 0px; }
+.project-section { margin-top: 0px; margin-bottom: 25px; }
 
 @media (min-width: 992px) {
 
