@@ -10,14 +10,15 @@ h6.h-font, h6.c-font { font-size: 18px; }
 
 body {
   padding-top: 15px;
-  background-color: #e7624d;
+  #background-color: #e7624d;
+  background-color: #F5E8B8;
 }
 
 section { text-align: center; }
 
 main {
   padding-top: 95px;
-  background-image: url("https://goo.gl/V5kMfs");
+  #background-image: url("https://goo.gl/V5kMfs");
 }
 
 p {
@@ -27,6 +28,14 @@ p {
   color: gray;
   font-size: 16px;
 }
+
+.p-font {
+font: normal normal normal 16px/1.4em 'EB Garamond',serif;
+color: #E8634E;
+}
+
+#navbar a { color: white; }
+#navbar { background-color: #E8634E; }
 
 .about-col {
   margin-bottom: 50px;
@@ -146,7 +155,7 @@ img#about-img {
   margin: 0 10px;
 }
 
-#navbar { margin-top: 15px; }
+#navbar { margin-top: 5px; }
 .nav>li { display: inline-block; }
 
 .hl3 {
