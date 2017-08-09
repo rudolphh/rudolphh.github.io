@@ -179,6 +179,7 @@ img#about-img {
   border-top: 1px solid lightgray;
   padding: 40px 0 40px 0;
   background-color: #e7624d;
+  margin-top: 40px;
 }
 
 .form-control {
@@ -222,7 +223,9 @@ img#about-img {
 }
 
 .project { margin-bottom: 50px; }
-.project-section { margin-top: 0px; margin-bottom: 25px; }
+.project-section { margin-top: 0px;  }
+
+
 
 .api-img {
   border: 1px solid lightgray;
@@ -238,7 +241,7 @@ img#about-img {
     margin-top: 20px;
   }
 
-  main { padding-bottom: 100px; }
+  main { padding-bottom: 40px; }
 }
 
 

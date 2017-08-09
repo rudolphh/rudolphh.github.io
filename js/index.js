@@ -18,6 +18,12 @@ function copyToClipboard(elementId) {
   document.body.removeChild(aux);
 }
 
+
+function displaySection(id) {
+  $('#'+id).toggle();
+}
+
+
 $(document).ready(function () {
 
   /* thanks to csstricks.com:
