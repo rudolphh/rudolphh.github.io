@@ -17,7 +17,7 @@ body {
 section { text-align: center; }
 
 main {
-  padding-top: 95px;
+  padding-top: 60px;
   #background-image: url("https://goo.gl/V5kMfs");
 }
 
@@ -71,11 +71,11 @@ color: #E8634E;
   position: relative;
   top: 0;
   left: 0;
-  padding-top: 3vh;
+
 }
 
 @media (min-width: 400px) {
-  #tron { padding-top: 6vh; }
+
 }
 
 #help-position {
@@ -116,8 +116,9 @@ color: #E8634E;
 
   #live-love-code {
     bottom: 250px;
-    margin-bottom: -100px;
   }
+
+  #welcome-section { margin-bottom: 60px; }
 }
 
 .red-shadow { text-shadow: 1px 1px 2px lightgrey, 0 0 25px red, 0 0 5px darkred; }
